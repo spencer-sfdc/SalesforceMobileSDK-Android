@@ -1,4 +1,3 @@
-# config/tddium.yml
 :tddium:
-	:tests:
-		- echo "Hello, world!"
+:tests:
+- echo "Hello, world!"
