@@ -2,5 +2,5 @@
 :tests:
 - echo "Hello, world!"
 - echo "2nd test"
-:mkdirtest"
+:mkdirtest:
 - mkdir testdir
