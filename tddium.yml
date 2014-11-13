@@ -1,3 +1,4 @@
 :tddium:
 :tests:
-- echo "2nd attempt. CI worked"
+- echo "Hello, world!"
+- echo "2nd test"
