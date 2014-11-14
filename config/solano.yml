@@ -3,3 +3,6 @@ tests:
 - pwd
 - cat hello.txt
 - ls -lash
+extra:
+- cat hello.txt
+- echo "Extra!" > extra.txt
