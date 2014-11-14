@@ -4,6 +4,8 @@
 #- cat hello.txt
 #- ls -lash
 tests:
+- dpkg-divert --local --rename --add /sbin/initctl # workaround for docker only running 1 process at a time
+- ln -s /bin/true /sbin/initctl #
 #- sudo apt-get install python-software-properties #Make sure that add-apt-repository is present
 #- sudo add-apt-repository ppa:saltstack/salt #Add the repository
 #- sudo apt-get update #Update the pkg mgr. database
