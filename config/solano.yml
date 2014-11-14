@@ -4,6 +4,6 @@
 #- cat hello.txt
 #- ls -lash
 tests:
-- chmod +x install_salt.sh
-- ./install_salt.sh
+- chmod +x config/install_salt.sh
+- ./config/install_salt.sh
 #- curl -L https://bootstrap.saltstack.com | sudo sh -s -- git develop
