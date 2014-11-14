@@ -1,8 +1,12 @@
+#tests:
+#- echo "Hello, world!"> hello.txt
+#- pwd
+#- cat hello.txt
+#- ls -lash
 tests:
-- [echo "Hello, world!" > hello.txt, cat hello.txt]
-- pwd
-- cat hello.txt
-- ls -lash
-extra:
-- cat hello.txt
-- echo "Extra!" > extra.txt
+- sudo apt-get install python-software-properties #Make sure that add-apt-repository is present
+- sudo add-apt-repository ppa:saltstack/salt #Add the repository
+- sudo apt-get update #Update the pkg mgr. database
+- sudo apt-get install salt-master #Install master
+- sudo apt-get install salt-minion #Install minionr
+- sudo apt-get install salt-syndic #TODO: Don't know what this is but it's in the instructions
