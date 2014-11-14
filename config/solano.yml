@@ -1,2 +1,3 @@
 :tests:
-- 'echo "noop" > newfile.txt'
+- echo "noop" > newfile.txt
+- cat newfile.txt
