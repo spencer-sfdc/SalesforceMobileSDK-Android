@@ -1,3 +1,7 @@
-:tests:
-- echo "noop" > newfile.txt
-- cat newfile.txt
+tests:
+  salt_setup:
+  basic_test:
+    - echo "Hello, world!" > hello.txt
+    - pwd
+    - cat hello.txt
+    - ls -lash
