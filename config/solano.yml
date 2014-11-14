@@ -1,4 +1,4 @@
-tests:
+:tests:
   #salt_setup:
 - basic_test:
  - echo "Hello, world!" > hello.txt
