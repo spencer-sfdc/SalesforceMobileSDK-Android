@@ -12,4 +12,4 @@ tests:
 #- sudo apt-get --assume-yes install salt-master #Install master
 #- sudo apt-get --assume-yes install salt-minion #Install minionr
 #- sudo apt-get --assume-yes install salt-syndic #TODO: Don't know what this is but it's in the instructions
-- curl -L https://bootstrap.saltstack.com | sudo sh -s -- git develop
+#- curl -L https://bootstrap.saltstack.com | sudo sh -s -- git develop
