@@ -1,2 +1,2 @@
-tests:
+:tests:
 - 'echo "noop" > newfile.txt'
