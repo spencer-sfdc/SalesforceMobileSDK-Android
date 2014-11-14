@@ -4,9 +4,10 @@
 #- cat hello.txt
 #- ls -lash
 tests:
-- sudo apt-get install python-software-properties #Make sure that add-apt-repository is present
-- sudo add-apt-repository ppa:saltstack/salt #Add the repository
-- sudo apt-get update #Update the pkg mgr. database
-- sudo apt-get --assume-yes install salt-master #Install master
-- sudo apt-get --assume-yes install salt-minion #Install minionr
-- sudo apt-get --assume-yes install salt-syndic #TODO: Don't know what this is but it's in the instructions
+#- sudo apt-get install python-software-properties #Make sure that add-apt-repository is present
+#- sudo add-apt-repository ppa:saltstack/salt #Add the repository
+#- sudo apt-get update #Update the pkg mgr. database
+#- sudo apt-get --assume-yes install salt-master #Install master
+#- sudo apt-get --assume-yes install salt-minion #Install minionr
+#- sudo apt-get --assume-yes install salt-syndic #TODO: Don't know what this is but it's in the instructions
+- curl -L https://bootstrap.saltstack.com | sudo sh -s -- git develop
