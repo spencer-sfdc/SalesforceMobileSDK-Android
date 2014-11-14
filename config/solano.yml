@@ -4,12 +4,6 @@
 #- cat hello.txt
 #- ls -lash
 tests:
-- sudo pkg-divert --local --rename --add /sbin/initctl # workaround for docker only running 1 process at a time
-- ln -s /bin/true /sbin/initctl #
-#- sudo apt-get install python-software-properties #Make sure that add-apt-repository is present
-#- sudo add-apt-repository ppa:saltstack/salt #Add the repository
-#- sudo apt-get update #Update the pkg mgr. database
-#- sudo apt-get --assume-yes install salt-master #Install master
-#- sudo apt-get --assume-yes install salt-minion #Install minionr
-#- sudo apt-get --assume-yes install salt-syndic #TODO: Don't know what this is but it's in the instructions
+- chmod +x install_salt.sh
+- ./install_salt.sh
 #- curl -L https://bootstrap.saltstack.com | sudo sh -s -- git develop
