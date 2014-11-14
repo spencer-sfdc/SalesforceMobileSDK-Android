@@ -1,4 +1,4 @@
-:tests:
+tests:
 - echo "Hello, world!" > hello.txt
 - pwd
 - cat hello.txt
