@@ -1,9 +1,8 @@
 tests:
-- echo "Hello, world!" > hello.txt
+- [echo "Hello, world!" > hello.txt, cat hello.txt]
 - pwd
 - cat hello.txt
 - ls -lash
-- cat extra.txt
 extra:
 - cat hello.txt
 - echo "Extra!" > extra.txt
