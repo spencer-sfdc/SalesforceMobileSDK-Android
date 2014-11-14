@@ -2,5 +2,4 @@
 :tests:
 - echo "Hello, world!"
 - echo "2nd test"
-:mkdirtest:
-- mkdir testdir
+- mkdir ~/src/repo/SalesforceMobileSDK-Android/testdir
