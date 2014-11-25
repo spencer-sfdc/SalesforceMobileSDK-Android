@@ -4,9 +4,9 @@
 #- cat hello.txt
 #- ls -lash
 :hooks:
-  :worker_setup: 
-    - chmod +x config/install_salt.sh
-    - ./config/install_salt.sh
+  :worker_setup: |
+    chmod +x config/install_salt.sh
+    ./config/install_salt.sh
 
 :tests:
   - echo "Hello, world!"> hello.txt
