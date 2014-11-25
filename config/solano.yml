@@ -8,11 +8,11 @@
     - chmod +x config/install_salt.sh
     - ./config/install_salt.sh
 
-#:tests:
-#  - echo "Hello, world!"> hello.txt
-#  - pwd
-#  - cat hello.txt
-#  - ls -lash
+:tests:
+  - echo "Hello, world!"> hello.txt
+  - pwd
+  - cat hello.txt
+  - ls -lash
 
 
 #- curl -L https://bootstrap.saltstack.com | sudo sh -s -- git develop
